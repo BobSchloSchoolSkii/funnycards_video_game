@@ -39,5 +39,19 @@
             "weirdly_cute_face": "00003",
             "cool_shield": "00004"
         }
+    },
+    "wowosaurus":
+    {
+        "id": "#A0002",
+        "health": 800,
+        "attack_dmg": 75,
+        "attack_cooldown_min": 0.8,
+        "attack_cooldown_max": 1.4,
+        "tier": "a",
+        "abilities":
+        {
+            "fire_spew_of_death": "00005",
+            "shield_of_yes": "00006"
+        }
     }
 }

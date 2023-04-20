@@ -10,8 +10,8 @@
         "type": "entity",
         "abilities": 
         {
-            "supa_shield": "00001",
-            "thunderstorm": "00002"
+            "ab1": "supa_shield",
+            "ab2": "thunderstorm"
         }
     },
     "potato":
@@ -36,8 +36,8 @@
         "type": "entity",
         "abilities":
         {
-            "weirdly_cute_face": "00003",
-            "cool_shield": "00004"
+            "ab1": "weirdly_cute_face",
+            "ab2": "cool_shield"
         }
     },
     "wowosaurus":
@@ -48,10 +48,51 @@
         "attack_cooldown_min": 0.8,
         "attack_cooldown_max": 1.4,
         "tier": "a",
+        "type": "entity",
         "abilities":
         {
-            "fire_spew_of_death": "00005",
-            "shield_of_yes": "00006"
+            "ab1": "fire_spew_of_death",
+            "ab2": "shield_of_yes"
+        }
+    },
+    "loaf_of_bread":
+    {
+        "id": "$C0001",
+        "tier": "c",
+        "type": "item",
+        "abilities":
+        {
+            "ef1": "+15% health",
+            "ef2": "-20% water dmg"
+        }
+    },
+    "larry":
+    {
+        "id": "#S0001",
+        "health": 1000,
+        "attack_dmg": 125,
+        "attack_cooldown_min": 0.5,
+        "attack_cooldown_max": 1.2,
+        "tier": "s",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "moustache_whip"
+        }
+    },
+    "uwusaurus":
+    {
+        "id": "#B0001",
+        "health": 550,
+        "attack_dmg": 125,
+        "attack_cooldown_min": 0.5,
+        "attack_cooldown_max": 1.2,
+        "tier": "b",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "uwu",
+            "ab2": "feet_of_wrath"
         }
     }
 }

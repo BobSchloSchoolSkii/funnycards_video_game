@@ -1,0 +1,43 @@
+{
+    "doxgewusel":
+    {
+        "id": "!!!",
+        "health": 1000000000000000000000,
+        "attack_dmg": 200000000000,
+        "attack_cooldown_min": 0,
+        "attack_cooldown_max": 0,
+        "tier": "!!!",
+        "type": "entity",
+        "abilities": 
+        {
+            "supa_shield": "00001",
+            "thunderstorm": "00002"
+        }
+    },
+    "potato":
+    {
+        "id": "#F0001",
+        "health": 10,
+        "attack_dmg": 1,
+        "attack_cooldown_min": 5,
+        "attack_cooldown_max": 10,
+        "tier": "f",
+        "type": "entity",
+        "abilities": {}
+    },
+    "creb":
+    {
+        "id": "#A0001",
+        "health": 750,
+        "attack_dmg": 95,
+        "attack_cooldown_min": 1,
+        "attack_cooldown_max": 1.5,
+        "tier": "a",
+        "type": "entity",
+        "abilities":
+        {
+            "weirdly_cute_face": "00003",
+            "cool_shield": "00004"
+        }
+    }
+}

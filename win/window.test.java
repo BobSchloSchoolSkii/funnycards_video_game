@@ -6,7 +6,7 @@ public class Main {
         frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
         frame.pack();
         frame.setVisible(true);
-        System.out.println("Hi")
+        System.out.println("Hi");
         
     }
 }

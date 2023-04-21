@@ -1,0 +1,68 @@
+.navbar {
+    text-align: center;
+}
+
+.navbar nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.navbar nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    transition: 500ms
+}
+
+.navbar nav ul li a:hover {
+    color: blue;
+    font-size: 38px;
+    transition: 500ms;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-icon {
+    width: 35%;
+    height: auto;
+    margin: 0 0;
+    padding: 0 0;
+    transition: 350ms;
+}
+
+
+#page-container {
+    position:relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 5rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.body {
+    background-image: url(img/other/background.png);
+}

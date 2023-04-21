@@ -1,0 +1,10 @@
+{
+    "supa_shield":
+    {
+        "enemy_attack_dmg_mult": 0.75
+    },
+    "thunderstorm":
+    {
+        "attack_dmg": 75000000
+    }
+}

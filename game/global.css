@@ -1,6 +1,7 @@
 .navbar 
 {
     text-align: center;
+    background-color: lightgray; 
 }
 
 .navbar nav ul li

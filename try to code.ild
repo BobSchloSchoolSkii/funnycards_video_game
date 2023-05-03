@@ -1,0 +1,14 @@
+GO DAVE (
+    DAVE, SAY "Hello"
+    DAVE, MAKE A VARIABLE CALLED 'x' WITH VALUE OF "YOOOO"
+    DAVE, SAY 'x'
+    DAVE, MAKE A FUNCTION CALLED *hello* WITH VARIABLE SCOPE OF [global]
+    DAVE, PUT CODE IN *hello*: (
+        DAVE, MAKE A VARIABLE CALLED 'i' WITH VALUE OF 0
+        DAVE, REPEAT THIS LOOP UNTIL {i IS EQUAL TO 10} (
+            DAVE, SAY "hi"
+            DAVE, MAKE 'i' HIGHER BY 1
+        )
+    )
+)
+STOP DAVE

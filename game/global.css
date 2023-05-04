@@ -79,3 +79,9 @@
 {
     background-image: url(img/other/background.png);
 }
+
+.navbar_header{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    margin-top: 2px;
+}

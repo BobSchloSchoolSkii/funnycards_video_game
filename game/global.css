@@ -85,3 +85,12 @@
     padding-top: 7px;
     margin-top: 2px;
 }
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+.link:hover{
+    color: red;
+}

@@ -1,9 +1,12 @@
 .navbar 
 {
-    text-align: center;
-    background-color: lightgray; 
+    background-color: lightgray;
+    width: 100%;
 }
-
+.navbar nav ul {
+    width: 100%;
+    justify-content: center;
+}
 .navbar nav ul li
 {
     display: inline-block;
@@ -25,6 +28,13 @@
     color: blue;
     font-size: 38px;
     transition: 500ms;
+}
+
+.navbar p
+{
+    text-align: center;
+    font-size: 18px;
+    color: black;
 }
 
 .arial 

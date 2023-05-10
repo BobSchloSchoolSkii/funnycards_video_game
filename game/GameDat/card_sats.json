@@ -94,5 +94,53 @@
             "ab1": "uwu",
             "ab2": "feet_of_wrath"
         }
+    },
+    "fred":
+    {
+        "id": "#C0001",
+        "health": 350,
+        "attack_dmg": 35,
+        "attack_cooldown_min": 0.7,
+        "attack_cooldown_max": 1.4,
+        "tier": "c",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "ordinariness",
+            "ab2": "shield_of_meh"
+        }
+    },
+    "john_the_egg":
+    {
+        "id": "#D0001",
+        "health": 150,
+        "attack_dmg": 20,
+        "attack_cooldown_min": 1.5,
+        "attack_cooldown_max": 2.5,
+        "tier": "d",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "egg"
+        }
+    },
+    "sarah":
+    {
+        "id": "#F0002",
+        "health": 40,
+        "attack_dmg": 7,
+        "attack_cooldown_min": 2.5,
+        "attack_cooldown_max": 3.0,
+        "tier": "f",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "bad_shield"
+        }
+    },
+    "adinath":
+    {
+        "id": "#S0002",
+        "health": 1250
     }
 }

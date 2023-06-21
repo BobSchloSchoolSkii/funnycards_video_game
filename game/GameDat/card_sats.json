@@ -141,6 +141,55 @@
     "adinath":
     {
         "id": "#S0002",
-        "health": 1250
+        "health": 1250,
+        "attack_dmg": 175,
+        "attack_cooldown_min": 0.5,
+        "attack_cooldown_max": 1.5,
+        "tier": "s",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "intimidating_smartness",
+            "ab2": "big_brain_moves"
+        }
+    },
+    "eli":
+    {
+        "id": "#A0003",
+        "health": 850,
+        "attack_dmg": 65,
+        "attack_cooldown_min": 1.5,
+        "attack_cooldown_max": 2.0,
+        "tier": "a",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "manipulation"
+        }
+    },
+    "esc_power_refresh":
+    {
+        "id": "$S0001",
+        "tier": "s",
+        "type": "item",
+        "abilities":
+        {
+            "ab1": "(ab_fx)*2",
+            "ab2": "(enemy_health) - 50"
+        }
+    },
+    "reid":
+    {
+        "id": "S0003",
+        "health": 1100,
+        "attack_dmg": 120,
+        "attack_cooldown_min": 0.7,
+        "attack_cooldown_max": 1.1,
+        "tier": "s",
+        "type": "entity",
+        "abilities":
+        {
+            "ab1": "math_god"
+        }
     }
 }
